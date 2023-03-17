@@ -1,0 +1,15 @@
+.photo {
+    background-image: url(../img/mood.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+.bg-img {
+    position: relative;
+    background-image: url(../img/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+    background-size: cover;
+}
+.texto-contenedor{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 70%);
+}

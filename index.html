@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--Bootsrap-->
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <!--Mis Estilos-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Proyecto</title>
+</head>
+<body class="vh-100">
+    <header>
+        <nav class="navbar bg-light fixed-top"> <!--NavBar-->
+            <div class="container-fluid">
+                <span class="material-symbols-outlined">bolt</span>
+              <a class="navbar-brand" href="#">Energy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="d-flex w-auto justify-content-sm-between">
+                    <div class="d-flex gap-1 m-1 ms-3">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Energy</h5><span class="material-symbols-outlined m-1">bolt</span>
+                    </div>
+                    <div class="">
+                         <button type="button" class="btn-close mt-2 me-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                </div>
+              
+                <div class="w-100 h-25 d-flex justify-content-center">
+                    <div class="photo bg-black rounded-circle">   
+                    </div>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Perfil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Configuraciones
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="w-100 h-100 mt-5">
+        <div class="bg-img w-100 h-50">
+            <section class="texto-contenedor w-100 h-100 d-flex justify-content-center align-items-center flex-column">
+                    <h2 class="text-white fs-1">Nicolas Gomez Barajas</h2>
+                    <div class="d-flex">
+                        <p class="text-white">Bogota, Colombia</p>
+                        <span class="material-symbols-outlined text-white">pin_drop</span>
+                    </div>
+            </section>
+        </div>
+    </main>
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
